@@ -7,7 +7,7 @@ module.exports = {
     content: path.join(__dirname, "src/content.tsx"),
   },
   output: {
-    path: path.join(__dirname,  "../../../../mnt/c/Users/syout/Documents/twi_ext/js"),
+    path: path.join(__dirname,  "./dist/js"),
     filename: "[name].js",
   },
   module: {

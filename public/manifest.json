@@ -10,7 +10,7 @@
                 "js/content.js"
             ],
             "matches": [
-                "http://abehiroshi.la.coocan.jp/"
+                "http://abehiroshi.la.coocan.jp/*"
             ]
         }
     ]

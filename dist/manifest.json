@@ -1,6 +1,7 @@
 {
-    "manifest_version": 3,
-    "name": "Reading Time",
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "name": "うごかないよ～",
     "description": "Add the reading time to Chrome Extension documentation articles",
     "version": "1.0",
     "content_scripts": [
@@ -9,7 +10,7 @@
                 "js/content.js"
             ],
             "matches": [
-                "https://www.google.co.jp/*"
+                "http://abehiroshi.la.coocan.jp/*"
             ]
         }
     ]

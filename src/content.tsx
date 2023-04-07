@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Home from "./views/home";
 
 const Main = () => {
   return (
@@ -10,7 +11,7 @@ const Main = () => {
         width: "100%",
       }}
     >
-      This is React
+      <Home />
     </div>
   );
 };
